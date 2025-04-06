@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: aviation-ai
+    env: python
+    buildCommand: ""
+    startCommand: "python3 app.py"
+    envVars:
+      - key: ENV
+        value: production
