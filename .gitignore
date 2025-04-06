@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Static analysis
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Logs and local secrets
+*.log
+*.env
+.env.*
+secrets.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+*.tar
+*.db
+docker-compose.override.yml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI specific (optional)
+instance/
+*.db
+
+# Pydantic compiled files
+*.pyd
+
+# VSCode Python workspace config
+.vscode/settings.json
